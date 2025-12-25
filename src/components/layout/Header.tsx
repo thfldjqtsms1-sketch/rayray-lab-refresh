@@ -14,10 +14,10 @@ const Header = () => {
   }, []);
 
   const navItems = [
-    { label: "About", href: "#about" },
-    { label: "Work", href: "#work" },
-    { label: "Services", href: "#services" },
-    { label: "Contact", href: "#contact" },
+    { label: "소개", href: "#about" },
+    { label: "작업", href: "#work" },
+    { label: "서비스", href: "#services" },
+    { label: "문의", href: "#contact" },
   ];
 
   return (
@@ -35,7 +35,7 @@ const Header = () => {
             {/* Logo */}
             <a href="#" className="relative z-50">
               <span className="font-serif text-2xl lg:text-3xl tracking-tight">
-                RAYRAY<span className="text-accent">lab</span>
+                CREO<span className="text-accent">.</span>
               </span>
             </a>
 
@@ -64,7 +64,7 @@ const Header = () => {
               transition={{ delay: 0.5 }}
               className="hidden lg:block px-6 py-3 border border-foreground/20 text-sm uppercase tracking-widest hover:bg-foreground hover:text-background transition-all duration-300"
             >
-              Let's Talk
+              프로젝트 문의
             </motion.a>
 
             {/* Mobile Menu Button */}

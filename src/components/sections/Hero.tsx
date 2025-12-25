@@ -3,21 +3,18 @@ import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   const marqueeItems = [
-    "Creative Dev",
-    "Logical Design",
-    "Website",
-    "Experience Lab",
-    "Planning",
-    "In Seoul",
-    "Digital Marketing",
-    "Branding",
-    "UXUI Design",
-    "Web Development",
-    "THREE.js",
-    "Dynamic",
-    "Interaction",
-    "Creativity",
-    "Unique",
+    "크리에이티브",
+    "브랜딩",
+    "웹사이트",
+    "디지털 경험",
+    "기획",
+    "서울",
+    "디지털 마케팅",
+    "UXUI 디자인",
+    "웹 개발",
+    "인터랙션",
+    "모션 디자인",
+    "3D",
   ];
 
   return (
@@ -48,7 +45,7 @@ const Hero = () => {
             className="mb-8"
           >
             <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
-              (01) Creative Agency
+              Creative Digital Agency
             </span>
           </motion.div>
 
@@ -60,7 +57,7 @@ const Hero = () => {
               transition={{ duration: 1, ease: [0.4, 0, 0.2, 1] }}
               className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl leading-[0.9] tracking-tight"
             >
-              We craft
+              브랜드를
             </motion.h1>
           </div>
           <div className="overflow-hidden mb-8">
@@ -70,7 +67,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.1, ease: [0.4, 0, 0.2, 1] }}
               className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl leading-[0.9] tracking-tight"
             >
-              <span className="text-outline">innovative</span>
+              <span className="text-outline">돋보이게</span>
             </motion.h1>
           </div>
           <div className="overflow-hidden mb-12">
@@ -80,7 +77,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.2, ease: [0.4, 0, 0.2, 1] }}
               className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl leading-[0.9] tracking-tight"
             >
-              digital <span className="text-accent">experiences</span>
+              <span className="text-accent">디자인</span>합니다
             </motion.h1>
           </div>
 
@@ -91,9 +88,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-muted-foreground max-w-xl text-sm md:text-base leading-relaxed mb-16"
           >
-            RayRayLab is a creative agency specializing in interaction design, 
-            web development, branding, and planning. We combine creativity with 
-            cutting-edge technology to deliver unique digital experiences.
+            CREO는 인터랙션 디자인, 웹 개발, 브랜딩, 기획을 전문으로 하는 
+            크리에이티브 에이전시입니다. 창의성과 최신 기술을 결합하여 
+            차별화된 디지털 경험을 만들어 드립니다.
           </motion.p>
 
           {/* CTA */}
@@ -105,7 +102,7 @@ const Hero = () => {
             className="inline-flex items-center gap-4 text-sm uppercase tracking-widest group"
           >
             <span className="text-muted-foreground group-hover:text-foreground transition-colors">
-              View Our Work
+              프로젝트 보기
             </span>
             <motion.div
               animate={{ y: [0, 8, 0] }}

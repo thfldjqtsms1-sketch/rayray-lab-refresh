@@ -5,49 +5,49 @@ import { ArrowUpRight } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "HILOWAVE",
-    category: "UXUI, Web Development",
-    date: "October 2024",
+    title: "하이브리드 커머스",
+    category: "UXUI, 웹 개발",
+    date: "2024년 10월",
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80",
     color: "#E8A87C",
   },
   {
     id: 2,
-    title: "Bigpicture Company",
-    category: "UXUI, Web Development",
-    date: "November 2023",
+    title: "스타트업 브랜딩",
+    category: "UXUI, 웹 개발",
+    date: "2024년 9월",
     image: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=800&q=80",
     color: "#85CDCA",
   },
   {
     id: 3,
-    title: "aL Studio",
-    category: "UXUI, Web Development",
-    date: "December 2022",
+    title: "아트 갤러리",
+    category: "UXUI, 웹 개발",
+    date: "2024년 7월",
     image: "https://images.unsplash.com/photo-1634017839464-5c339bbe3c35?w=800&q=80",
     color: "#C38D9E",
   },
   {
     id: 4,
-    title: "Luminous Seoul",
-    category: "UXUI, Web Development",
-    date: "June 2022",
+    title: "뷰티 브랜드",
+    category: "UXUI, 웹 개발",
+    date: "2024년 5월",
     image: "https://images.unsplash.com/photo-1614850715649-1d0106293bd1?w=800&q=80",
     color: "#E27D60",
   },
   {
     id: 5,
-    title: "Earth Library",
-    category: "Web Development",
-    date: "May 2022",
+    title: "환경 캠페인",
+    category: "웹 개발",
+    date: "2024년 3월",
     image: "https://images.unsplash.com/photo-1618172193622-ae2d025f4032?w=800&q=80",
     color: "#41B3A3",
   },
   {
     id: 6,
-    title: "MATPLAZA",
-    category: "UXUI, Web Development",
-    date: "September 2024",
+    title: "푸드 플랫폼",
+    category: "UXUI, 웹 개발",
+    date: "2024년 1월",
     image: "https://images.unsplash.com/photo-1604871000636-074fa5117945?w=800&q=80",
     color: "#F6AE2D",
   },
@@ -70,7 +70,7 @@ const Work = () => {
               transition={{ duration: 0.6 }}
               className="text-xs uppercase tracking-[0.3em] text-muted-foreground block mb-6"
             >
-              (04) Featured Work
+              Featured Work
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, y: 40 }}
@@ -78,9 +78,9 @@ const Work = () => {
               transition={{ duration: 0.8, delay: 0.1 }}
               className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight"
             >
-              Selected
+              선별된
               <br />
-              <span className="text-accent italic">projects</span>
+              <span className="text-accent italic">프로젝트</span>
             </motion.h2>
           </div>
           <motion.a
@@ -90,7 +90,7 @@ const Work = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="inline-flex items-center gap-2 text-sm uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors group"
           >
-            View All Projects
+            전체 프로젝트 보기
             <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
           </motion.a>
         </div>

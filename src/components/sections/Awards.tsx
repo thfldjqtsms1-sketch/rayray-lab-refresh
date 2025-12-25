@@ -6,7 +6,7 @@ const awards = [
   { title: "Awwwards", category: "Honorable Mention", year: "2024", count: 3 },
   { title: "CSS Design Awards", category: "Best UI Design", year: "2024", count: 2 },
   { title: "FWA", category: "Site of the Day", year: "2023", count: 1 },
-  { title: "The Webby Awards", category: "Best Visual Design", year: "2023", count: 1 },
+  { title: "웹어워드코리아", category: "최우수상", year: "2023", count: 2 },
 ];
 
 const Awards = () => {
@@ -31,7 +31,7 @@ const Awards = () => {
             transition={{ duration: 0.6 }}
             className="text-xs uppercase tracking-[0.3em] text-muted-foreground block mb-6"
           >
-            (05) Recognition
+            Recognition
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 40 }}
@@ -39,8 +39,8 @@ const Awards = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="font-serif text-4xl md:text-5xl lg:text-7xl leading-tight mb-8"
           >
-            Awards &{" "}
-            <span className="text-accent italic">Recognition</span>
+            수상 및{" "}
+            <span className="text-accent italic">인정</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -48,8 +48,8 @@ const Awards = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-muted-foreground max-w-2xl mx-auto text-sm lg:text-base leading-relaxed"
           >
-            RAYRAYlab has demonstrated its creativity and expertise through awards. 
-            With proven know-how and innovation, we elevate your brand and deliver optimal solutions.
+            CREO는 다양한 어워즈에서의 수상 경력을 통해 크리에이티브 전문성을 입증해 왔습니다.
+            축적된 노하우와 혁신적인 전략으로 브랜드 가치를 높이고 최적의 솔루션을 제공합니다.
           </motion.p>
         </div>
 
@@ -98,9 +98,8 @@ const Awards = () => {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="text-center text-muted-foreground text-sm mt-16 max-w-xl mx-auto"
         >
-          RayRaylab is a one-person web agency. The ability to understand development 
-          while designing, and to appreciate design while developing, creates a unique 
-          synergy that enhances creativity and leads to innovative solutions.
+          디자인하면서 개발을 이해하고, 개발하면서 디자인을 이해하는 능력은 
+          창의성을 높일 뿐만 아니라 혁신적인 솔루션으로 이어집니다.
         </motion.p>
       </div>
     </section>

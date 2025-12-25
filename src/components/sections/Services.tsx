@@ -6,34 +6,34 @@ const services = [
   {
     icon: Palette,
     number: "01",
-    title: "UXUI Design",
+    title: "UXUI 디자인",
     description:
-      "Creating intuitive and visually stunning interfaces that enhance user experience and drive engagement.",
-    tags: ["User Research", "Wireframing", "Prototyping", "Visual Design"],
+      "직관적이고 시각적으로 아름다운 인터페이스를 만들어 사용자 경험을 향상시키고 참여도를 높입니다.",
+    tags: ["사용자 리서치", "와이어프레임", "프로토타이핑", "비주얼 디자인"],
   },
   {
     icon: Code,
     number: "02",
-    title: "Web Development",
+    title: "웹 개발",
     description:
-      "Building performant, scalable websites with cutting-edge technologies including Three.js and interactive animations.",
+      "Three.js와 인터랙티브 애니메이션을 포함한 최신 기술로 고성능의 확장 가능한 웹사이트를 구축합니다.",
     tags: ["React", "Three.js", "TypeScript", "Animation"],
   },
   {
     icon: Megaphone,
     number: "03",
-    title: "Digital Marketing",
+    title: "디지털 마케팅",
     description:
-      "Strategic digital marketing solutions that amplify your brand presence and connect with your target audience.",
-    tags: ["SEO", "Content Strategy", "Analytics", "Campaign"],
+      "브랜드 존재감을 높이고 타겟 고객과 연결하는 전략적 디지털 마케팅 솔루션을 제공합니다.",
+    tags: ["SEO", "콘텐츠 전략", "분석", "캠페인"],
   },
   {
     icon: Lightbulb,
     number: "04",
-    title: "Brand Planning",
+    title: "브랜드 기획",
     description:
-      "Comprehensive brand strategy and planning that defines your unique identity and market positioning.",
-    tags: ["Strategy", "Identity", "Guidelines", "Positioning"],
+      "고유한 정체성과 시장 포지셔닝을 정의하는 종합적인 브랜드 전략 및 기획을 제공합니다.",
+    tags: ["전략", "아이덴티티", "가이드라인", "포지셔닝"],
   },
 ];
 
@@ -53,7 +53,7 @@ const Services = () => {
               transition={{ duration: 0.6 }}
               className="text-xs uppercase tracking-[0.3em] text-muted-foreground block mb-6"
             >
-              (03) What's Unique
+              Services
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, y: 40 }}
@@ -61,9 +61,9 @@ const Services = () => {
               transition={{ duration: 0.8, delay: 0.1 }}
               className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight"
             >
-              Services that make
+              브랜드를 빛나게 하는
               <br />
-              <span className="text-accent italic">brands shine</span>
+              <span className="text-accent italic">서비스</span>
             </motion.h2>
           </div>
           <motion.p
@@ -72,8 +72,8 @@ const Services = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-muted-foreground max-w-md text-sm leading-relaxed"
           >
-            We take pride in viewing brands from various perspectives and 
-            expressing them in a multidimensional way.
+            다양한 관점에서 브랜드를 바라보고 
+            입체적으로 표현하는 것이 우리의 강점입니다.
           </motion.p>
         </div>
       </div>
