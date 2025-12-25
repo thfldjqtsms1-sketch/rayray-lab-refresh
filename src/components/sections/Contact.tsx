@@ -7,10 +7,10 @@ const Contact = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "Contact@RAYRAYlab.com", href: "mailto:Contact@RAYRAYlab.com" },
-    { icon: Phone, label: "Phone", value: "+82) 10 3026 3156", href: "tel:+821030263156" },
-    { icon: MapPin, label: "Location", value: "Seoul, Republic of Korea", href: "#" },
-    { icon: Instagram, label: "Instagram", value: "@Rayraylab", href: "https://www.instagram.com/rayraylab" },
+    { icon: Mail, label: "이메일", value: "hello@creo.studio", href: "mailto:hello@creo.studio" },
+    { icon: Phone, label: "전화", value: "02-1234-5678", href: "tel:0212345678" },
+    { icon: MapPin, label: "위치", value: "서울특별시 강남구", href: "#" },
+    { icon: Instagram, label: "인스타그램", value: "@creo.studio", href: "https://www.instagram.com" },
   ];
 
   return (
@@ -25,7 +25,7 @@ const Contact = () => {
               transition={{ duration: 0.6 }}
               className="text-xs uppercase tracking-[0.3em] text-muted-foreground block mb-6"
             >
-              (06) Get in Touch
+              Contact
             </motion.span>
 
             <motion.h2
@@ -34,11 +34,11 @@ const Contact = () => {
               transition={{ duration: 0.8, delay: 0.1 }}
               className="font-serif text-4xl md:text-5xl lg:text-7xl leading-tight mb-8"
             >
-              Let's create
+              함께
               <br />
-              <span className="text-accent italic">something</span>
+              <span className="text-accent italic">멋진 것을</span>
               <br />
-              amazing
+              만들어요
             </motion.h2>
 
             <motion.p
@@ -47,19 +47,19 @@ const Contact = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-muted-foreground max-w-md text-sm leading-relaxed mb-12"
             >
-              Ready to transform your brand's digital presence? 
-              Let's discuss how we can bring your vision to life 
-              with unique interactions and innovative solutions.
+              브랜드의 디지털 존재감을 변화시킬 준비가 되셨나요?
+              고유한 인터랙션과 혁신적인 솔루션으로 비전을 
+              실현하는 방법을 함께 논의해 보세요.
             </motion.p>
 
             <motion.a
-              href="mailto:Contact@RAYRAYlab.com"
+              href="mailto:hello@creo.studio"
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.3 }}
               className="inline-flex items-center gap-4 px-8 py-4 bg-foreground text-background font-mono text-sm uppercase tracking-wider hover:bg-accent hover:text-accent-foreground transition-colors duration-300 group"
             >
-              Start a Project
+              프로젝트 시작하기
               <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
             </motion.a>
           </div>
@@ -102,10 +102,10 @@ const Contact = () => {
               className="mt-12 p-8 border-gradient bg-card rounded-lg"
             >
               <span className="text-xs uppercase tracking-widest text-muted-foreground block mb-4">
-                Our Services
+                제공 서비스
               </span>
               <div className="flex flex-wrap gap-2">
-                {["UXUI Design", "Web Development", "Branding", "Planning"].map((service) => (
+                {["UXUI 디자인", "웹 개발", "브랜딩", "기획"].map((service) => (
                   <span
                     key={service}
                     className="px-4 py-2 text-sm border border-border/50 rounded-full text-muted-foreground"

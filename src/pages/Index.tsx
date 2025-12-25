@@ -12,16 +12,16 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>RAYRAYlab | Creative Web Agency in Seoul</title>
+        <title>CREO | 크리에이티브 디지털 에이전시</title>
         <meta
           name="description"
-          content="RAYRAYlab is a creative agency specializing in interaction design, web development, branding, and planning. We craft innovative digital experiences."
+          content="CREO는 인터랙션 디자인, 웹 개발, 브랜딩, 기획을 전문으로 하는 서울 기반 크리에이티브 에이전시입니다."
         />
         <meta
           name="keywords"
-          content="web development, UXUI design, branding, creative agency, Seoul, interaction design, Three.js"
+          content="웹 개발, UXUI 디자인, 브랜딩, 크리에이티브 에이전시, 서울, 인터랙션 디자인, 디지털 마케팅"
         />
-        <link rel="canonical" href="https://www.rayraylab.com" />
+        <link rel="canonical" href="https://www.creo.studio" />
       </Helmet>
 
       <div className="relative">

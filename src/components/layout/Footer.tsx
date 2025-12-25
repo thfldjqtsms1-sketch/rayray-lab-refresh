@@ -13,13 +13,13 @@ const Footer = () => {
           {/* Logo */}
           <div className="flex items-center gap-4">
             <span className="font-serif text-2xl tracking-tight">
-              RAYRAY<span className="text-accent">lab</span>
+              CREO<span className="text-accent">.</span>
             </span>
           </div>
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground text-center">
-            © {new Date().getFullYear()} All Content Reserved by RAYRAYlab
+            © {new Date().getFullYear()} CREO. All Rights Reserved.
           </p>
 
           {/* Back to Top */}
@@ -29,7 +29,7 @@ const Footer = () => {
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-2 text-sm uppercase tracking-widest text-muted-foreground hover:text-foreground transition-colors"
           >
-            <span>Back to Top</span>
+            <span>맨 위로</span>
             <ArrowUp className="w-4 h-4" />
           </motion.button>
         </div>

@@ -18,7 +18,7 @@ const About = () => {
               transition={{ duration: 0.6 }}
               className="text-xs uppercase tracking-[0.3em] text-muted-foreground block mb-6"
             >
-              (02) Who We Are
+              About Us
             </motion.span>
 
             <motion.h2
@@ -27,9 +27,8 @@ const About = () => {
               transition={{ duration: 0.8, delay: 0.1 }}
               className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight mb-8"
             >
-              RAYRAYlab pursues{" "}
-              <span className="text-accent italic">unique</span>{" "}
-              Interactions
+              <span className="text-accent italic">특별한</span>{" "}
+              경험을 디자인합니다
             </motion.h2>
 
             <motion.div
@@ -39,15 +38,15 @@ const About = () => {
               className="space-y-6"
             >
               <p className="text-muted-foreground leading-relaxed">
-                Not just a unique that no one has attempted, we delve into a brand's 
-                values and philosophy to create tailored, meaningful experiences. 
-                Deep brand insights create a uniquely powerful impact.
+                단순히 남들이 시도하지 않은 것이 아닌, 브랜드가 가진 고유한 
+                가치와 철학을 깊이 이해하고 이를 사용자와 상호작용하는 
+                브랜드만의 방식으로 표현합니다.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                레이레이랩은 남다른 인터랙션을 지향합니다. 단순히 남들이 시도하지 
-                않은 다름이 아닌, 브랜드가 가지는 고유한 가치와 철학을 이해하고 
-                이를 브랜드만의 방식으로 사용자와 상호작용하는 것을 선호합니다.
+                브랜드를 제대로 이해하는 인사이트는 남다른 감동을 만들어 
+                냅니다. 우리는 깊은 이해를 바탕으로 차별화된 디지털 
+                경험을 설계합니다.
               </p>
             </motion.div>
           </div>
@@ -62,12 +61,12 @@ const About = () => {
             >
               <div className="border-gradient bg-card p-8 rounded-lg">
                 <span className="text-accent text-xs uppercase tracking-widest block mb-4">
-                  Philosophy
+                  Our Philosophy
                 </span>
                 <p className="text-foreground/80 leading-relaxed text-sm">
-                  Just as there are countless brands, interactions can be designed 
-                  in a variety of creative and dynamic ways to enhance user engagement. 
-                  RAYRAYlab helps bring your brand's unique interaction to life on the web.
+                  수많은 브랜드가 존재하듯, 인터랙션도 다양하고 창의적인 
+                  방식으로 디자인될 수 있습니다. CREO는 브랜드만의 
+                  고유한 인터랙션을 웹에서 실현합니다.
                 </p>
               </div>
 
@@ -78,9 +77,9 @@ const About = () => {
                   transition={{ duration: 0.6, delay: 0.4 }}
                   className="text-center p-6 border border-border/50 rounded-lg"
                 >
-                  <span className="font-serif text-5xl text-accent block mb-2">50+</span>
+                  <span className="font-serif text-5xl text-accent block mb-2">120+</span>
                   <span className="text-xs uppercase tracking-widest text-muted-foreground">
-                    Projects
+                    프로젝트
                   </span>
                 </motion.div>
                 <motion.div
@@ -89,9 +88,9 @@ const About = () => {
                   transition={{ duration: 0.6, delay: 0.5 }}
                   className="text-center p-6 border border-border/50 rounded-lg"
                 >
-                  <span className="font-serif text-5xl text-accent block mb-2">5+</span>
+                  <span className="font-serif text-5xl text-accent block mb-2">8+</span>
                   <span className="text-xs uppercase tracking-widest text-muted-foreground">
-                    Awards
+                    수상 경력
                   </span>
                 </motion.div>
               </div>
@@ -103,7 +102,7 @@ const About = () => {
                 className="flex items-center gap-4 text-sm text-muted-foreground"
               >
                 <div className="w-12 h-px bg-accent" />
-                <span>Based in Seoul, Korea</span>
+                <span>서울 기반 크리에이티브 에이전시</span>
               </motion.div>
             </motion.div>
           </div>
@@ -113,7 +112,7 @@ const About = () => {
       {/* Background Brand Text */}
       <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 overflow-hidden pointer-events-none opacity-[0.03]">
         <div className="marquee-track-reverse whitespace-nowrap">
-          {Array(10).fill("BRAND").map((text, index) => (
+          {Array(10).fill("CREO").map((text, index) => (
             <span
               key={index}
               className="inline-block mx-8 font-serif text-[20vw] uppercase"
